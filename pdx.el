@@ -305,7 +305,7 @@ should contain '%s' for the location of the id"
 ;;     (`(:elem . basic) tab-width)
 ;;     ))
 
-(define-derived-mode pdx-mode prog-mode "pdx"
+(define-derived-mode pdx-mode c-mode "pdx"
   "Major mode for editing Pdx files."
   :group 'pdx
 
@@ -328,5 +328,5 @@ should contain '%s' for the location of the id"
 
   (run-mode-hooks 'pdx-mode-hook))
 
-(provide 'pdx)
+(provide 'pdx-mode)
 ;;; pdx.el ends here
